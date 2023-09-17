@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
     int a=10, b=20;
-    int &aRef = a;
+    int& aRef = a;
     cout << "a의 값 : " << a << endl;
     cout << "aRef가 참조하는 값 : " << aRef << endl << endl;
     aRef = 100;
